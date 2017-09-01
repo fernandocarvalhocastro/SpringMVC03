@@ -2,7 +2,13 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix="tag" tagdir="/WEB-INF/tags" %>
 
+
 <tag:template title="Cadastro de Cerveja">
+
+<jsp:attribute name="scripts">
+	<script src="teste"></script>
+</jsp:attribute>
+<jsp:body>
 		<h1>Cadastro de Cerveja</h1>
 		<form method="post" action="cadastrar">
 			<div class="form-group">
@@ -25,6 +31,5 @@
 		<div class="${produto==null ?'':'alert alert-success'}">
 			${produto.nome} ${produto==null ?'':' - cadastrado com sucesso!'}
 		</div>
+</jsp:body>
 </tag:template>
-</body>
-</html>
