@@ -13,10 +13,12 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-	<a class="navbar-brand" href="<c:url value="/"></c:url>">Home</a>
-    <a class="navbar-brand" href="<c:url value="/cerveja/cadastro"></c:url>">Cadastro</a>
-    <a class="navbar-brand" href="<c:url value="/cerveja/listar"></c:url>">Listar</a>
-  </nav>
+	
+    <a class="nav-link" href="<c:url value="/cerveja/cadastro"></c:url>">Cadastro Cerveja</a>
+    <a class="nav-link" href="<c:url value="/cerveja/listar"></c:url>">Listar Cerveja</a>
+    <a class="nav-link" href="<c:url value="/petisco/cadastrar"></c:url>">Cadastro Petisco</a>
+    <a class="nav-link" href="<c:url value="/petisco/listar"></c:url>">Listar Petisco</a>
+</nav>
 <div class="container">
 <jsp:doBody />
 </div>

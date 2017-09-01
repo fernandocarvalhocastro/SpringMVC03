@@ -5,7 +5,7 @@
 
 
 <tag:template title="Lista Cerveja">
-	<h1>Lista de Cervejas</h1>
+	<h2>Lista de Cervejas</h2>
 	<table class="table table-hover">
 		<tr>
 			<th>Nome</th>

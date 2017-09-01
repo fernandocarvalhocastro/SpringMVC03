@@ -9,7 +9,7 @@
 	<script src="teste"></script>
 </jsp:attribute>
 <jsp:body>
-		<h1>Cadastro de Cerveja</h1>
+		<h2>Cadastro de Cerveja</h2>
 		<form method="post" action="cadastrar">
 			<div class="form-group">
 				<label for="nome">Nome:</label> <input type="text" name="nome"
